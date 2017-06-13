@@ -1,0 +1,26 @@
+{
+  "name": "typescript-basic",
+  "version": "1.0.0",
+  "description": "A simple TypeScript boilerplate",
+  "main": "_build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpaul/ts-basic-boilerplate.git"
+  },
+  "author": "Paul Shannon <paul@sitepen.com>",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/devpaul/ts-basic-boilerplate/issues"
+  },
+  "homepage": "https://github.com/devpaul/ts-basic-boilerplate#readme",
+  "devDependencies": {
+    "tslint": "^5.4.3",
+    "tslint-sitepen": "^0.1.0",
+    "typescript": "^2.3.4"
+  }
+}
